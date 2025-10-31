@@ -1,4 +1,35 @@
 baseURL = "https://th4mjeed.github.io/portfolio-hugo/"
 languageCode = "en-us"
-title = "Thamjeed's Space"
+title = "Thamjeed"
 theme = "PaperMod"
+
+[pagination]
+pagerSize = 5
+
+[params]
+defaultTheme = "auto"
+
+[params.profileMode]
+enabled = true
+title = "Thamjeed"
+subtitle = "Linux Kernel Enthusiast"
+imageUrl = ""   # skip for now
+imageWidth = 200
+imageHeight = 200
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+# Social Icons
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/th4mjeed"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/th4mjeed"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:7h4mj33d@gmail.com"
