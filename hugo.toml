@@ -17,9 +17,9 @@ imageUrl = ""   # skip for now
 imageWidth = 200
 imageHeight = 200
 
-[[params.profileMode.buttons]]
-name = "Blog"
-url = "/posts/"
+#[[params.profileMode.buttons]]
+#name = "Blog"
+#url = "/posts/"
 
 # Social Icons
 [[params.socialIcons]]
