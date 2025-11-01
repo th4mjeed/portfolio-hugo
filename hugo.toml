@@ -9,8 +9,6 @@ pagerSize = 5
 [params]
 defaultTheme = "dark"
 disableThemeToggle = true
-assetsDir = "assets"
-customCSS = ["css/custom.css"]
 
 [params.profileMode]
 enabled = true
