@@ -1,18 +1,22 @@
-/* Move menu under site title on small screens */
-@media screen and (max-width: 768px) {
-  .nav > ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 0.75rem;
-    padding-left: 0;
-  }
+@media (max-width: 1000px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-  .nav > ul > li {
-    padding: 4px 0;
-  }
+    .nav .logo {
+        margin-bottom: 10px;
+    }
 
-  .header-title {
-    margin-bottom: 0.5rem;
-  }
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        margin-right: 12px;
+        margin-bottom: 8px;
+    }
 }
