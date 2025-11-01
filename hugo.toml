@@ -9,6 +9,7 @@ pagerSize = 5
 [params]
 defaultTheme = "dark"
 disableThemeToggle = true
+enableSearch = true
 
 [params.profileMode]
 enabled = true
