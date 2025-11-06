@@ -10,6 +10,7 @@ pagerSize = 5
 defaultTheme = "dark"
 disableThemeToggle = true
 enableSearch = true
+enableEmoji = true
 
 [params.profileMode]
 enabled = true
@@ -35,3 +36,6 @@ url = "https://linkedin.com/in/th4mjeed"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:7h4mj33d@gmail.com"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
