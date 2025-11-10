@@ -1,6 +1,6 @@
 baseURL = "https://th4mjeed.github.io/"
 languageCode = "en-us"
-title = "Thamjeed"
+title = "th4mjeed"
 theme = "PaperMod"
 
 [pagination]
