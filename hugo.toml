@@ -1,4 +1,4 @@
-baseURL = "https://th4mjeed.github.io/portfolio-hugo/"
+baseURL = "https://th4mjeed.github.io/"
 languageCode = "en-us"
 title = "Thamjeed"
 theme = "PaperMod"

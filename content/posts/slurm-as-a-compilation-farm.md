@@ -4,30 +4,25 @@ date: 2025-11-06
 draft: false
 ---
 
-<aside>
-📢
-
-NOTE: This document is based on my understanding of SLURM and is in no way a detailed guide covering every single topic, take this as a practical guide from a noob’s perspective diving into it.
-
-</aside>
+> 📢 NOTE: This document is based on my understanding of SLURM and is in no way a detailed guide covering every single topic, take this as a practical guide from a noob’s perspective diving into it.
 
 ## **Introduction:**
 
 This guide is designed to help you effectively use the SLURM scheduler on Rocky Linux 9.5 server. The Server allows you to run computational jobs using both interactive and non-interactive modes. The goal here is to make a compilation farm, although this guide specifically focuses on compiling the Linux kernel, one should note that this may also me used to compile any other tool given that the perquisites and dependencies are known.
 
-**[STILL IN PROGRESS, WILL BE REMOVED IF NOT PRACTICAL]** Additionally, We’d also setup distributed compilation using **distcc**
+<!---**[STILL IN PROGRESS, WILL BE REMOVED IF NOT PRACTICAL]** Additionally, We’d also setup distributed compilation using **distcc** --->
 
 ## **Lab Infrastructure:**
 
 The following are all on VMware ESXI
 
-1. **Master:**
+1.  **Master:**
     - CPUs 4
     - Memory 4 GB
     - Hard disk 20 GB
     - Hostname: master
 
-1. **Node 1:**
+1.  **Node 1:**
     - CPUs  4
     - Memory 4 GB
     - Hard disk 40 GB
@@ -52,7 +47,7 @@ The Architecture diagram for the looks like this:
 
 ## **Chapter 1: The installation:**
 
-1. **Install and configure dependencies**
+1.  **Install and configure dependencies**
 
 Installation of slurm requires EPEL repo to be installed across all instances, install and enable it via
 
